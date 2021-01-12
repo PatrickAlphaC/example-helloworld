@@ -72,6 +72,7 @@ $ export RUST_LOG=solana_runtime::system_instruction_processor=trace,solana_runt
 
 Start a local Solana cluster:
 ```bash
+$ npm install
 $ npm run localnet:update
 $ npm run localnet:up
 ```
